@@ -5,7 +5,7 @@
 
     <groupId>net.yetamine</groupId>
     <artifactId>net.yetamine</artifactId>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
     <packaging>pom</packaging>
 
     <name>net.yetamine</name>
@@ -172,7 +172,23 @@
         </pluginManagement>
     </build>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.9.10</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <profiles>
+        <!--
+            No profile should run the default Maven settings, usually good 
+            enough for regular builds.
+        -->    
+    
         <profile>
             <!--
                 Produce runnable artifacts for development purposes; the best
@@ -180,10 +196,6 @@
             -->
 
             <id>default</id>
-
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
 
             <properties>
                 <skipTests>true</skipTests>
