@@ -19,7 +19,7 @@ This repository provides common parts for other Yetamine projects for the Java p
 
 Feedback, ideas and contributions are welcome!
 
-[![Yetamine logo](http://petr.dolezal.matfyz.cz/files/Yetamine_small.svg "Our logo")](http://petr.dolezal.matfyz.cz/files/Yetamine_large.svg)
+[![Yetamine logo](about/Yetamine_small.png "Our logo")](about/Yetamine_large.png)
 
 
 ## Licensing ##
