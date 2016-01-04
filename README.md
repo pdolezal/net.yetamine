@@ -1,6 +1,6 @@
 # Yetamine #
 
-This repository provides common parts for other Yetamine projects for the Java platform. Besides them, it contains settings, guidelines and other useful resources used for their development.
+This repository provides common parts for Yetamine projects for the Java platform. Besides them, it contains settings, guidelines and other useful resources used for their development. Don't hesitate to see our projects!
 
 
 ## Commitment ##
