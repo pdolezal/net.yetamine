@@ -5,7 +5,7 @@
 
     <groupId>net.yetamine</groupId>
     <artifactId>net.yetamine</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <packaging>pom</packaging>
 
     <name>net.yetamine</name>
@@ -66,7 +66,7 @@
                     <configuration>
                         <instructions>
                             <!-- Remove unnecessary headers -->
-                            <_removeheaders>Built-By, Private-Package</_removeheaders>
+                            <_removeheaders>Built-By, Private-Package, Include-Resource</_removeheaders>
                             <!-- Allow possibly adding sources in the bundle: great for debugging -->
                             <_sources>${source.includeSrc}</_sources>
                         </instructions>
