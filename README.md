@@ -15,6 +15,11 @@ This repository provides common parts for Yetamine projects for the Java platfor
 [versioning]: https://www.osgi.org/wp-content/uploads/SemanticVersioning.pdf
 
 
+## More Yetamine ##
+
+Look at [Maven Central][Maven-Central](http://search.maven.org/#search|ga|1|net.yetamine).
+
+
 ## Follow us ##
 
 Feedback, ideas and contributions are welcome!
