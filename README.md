@@ -1,6 +1,6 @@
 # Yetamine #
 
-This repository provides common parts for Yetamine projects for the Java platform. Besides them, it contains settings, guidelines and other useful resources used for their development. Don't hesitate to see our projects!
+This repository provides the common setup for Yetamine projects for the Java platform and our projects uses it, but it hosts no actual project. Visit our other repositories to see the projects.
 
 
 ## Commitment ##
@@ -17,7 +17,7 @@ This repository provides common parts for Yetamine projects for the Java platfor
 
 ## More Yetamine ##
 
-Look at [Maven Central][Maven-Central](http://search.maven.org/#search|ga|1|net.yetamine).
+Look at [Maven Central](http://search.maven.org/#search|ga|1|net.yetamine).
 
 
 ## Follow us ##
