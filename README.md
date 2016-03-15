@@ -29,8 +29,9 @@ Feedback, ideas and contributions are welcome!
 
 ## Licensing ##
 
-Yetamine projects are licensed under the [CC BY-SA 4.0][CC-BY-SA] license by default, including the content in this repository. Contributions are accepted only under the same licensing terms, under the terms of [CC BY 4.0][CC-BY], or under a public domain license (like [CC0][CC0], so that the work based on the contributions might be published under the CC BY-SA license terms.
+Yetamine projects are licensed under the [Apache 2.0 license][ASL] by default. The license applies to the content of this repository as well, except for Yetamine mark and logo (see the license text, [Trademarks section][ASL#trademarks]). Contributions to the projects are welcome and accepted if they can be incorporated without the need of changing the license or license conditions and terms.
 
-[CC-BY-SA]:  http://creativecommons.org/licenses/by-sa/4.0/
-[CC-BY]:     http://creativecommons.org/licenses/by/4.0/
-[CC0]:       http://creativecommons.org/choose/zero/
+For previous versions of this repository the original or the current license can be chosen, i.e., the current license applies as an option for previously published content.
+
+[ASL]:            http://www.apache.org/licenses/LICENSE-2.0
+[ASL#trademarks]: http://www.apache.org/licenses/LICENSE-2.0#trademarks
