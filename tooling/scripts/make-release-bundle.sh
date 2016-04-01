@@ -13,7 +13,7 @@ fi
 BASENAME="$1"
 
 cp -f "$BASENAME.pom" "pom.xml"
-jar cf "$BASENAME-bundle.jar" "$BASENAME.jar"           \
+jar cf "$BASENAME-bundle.jar"                           \
     "$BASENAME.jar" "$BASENAME.jar.asc"                 \
     "$BASENAME-sources.jar" "$BASENAME-sources.jar.asc" \
     "$BASENAME-javadoc.jar" "$BASENAME-javadoc.jar.asc" \
