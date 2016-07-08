@@ -153,7 +153,7 @@ As long as no release is forked from a master branch, the branch is in the incub
 8. Perform clean full build of the artifacts.
 9. Stage the artifacts for releasing.
 10. If release is approved, commit the version: `git commit -m "Release version "`*a.b.c*
-11. Make the release tag: `git tag -s "Release version "`*a.b.c*
+11. Make the release tag: `git tag -sm "Release version "`*a.b.c*` release/`*a.b.c*
 12. Publish the code (i.e., push the changes) and the artifacts.
 
 In the case of problems after the commit on the master branch, reverting this commit, fixing the problem and repeating the procedure is the preferred way. However, it assumes that commits on the master branch are suspended until the release does succeed. If committing on the master branch can't be suspended, then an integration branch can be used instead for commits and the master branch merges the changes from the integration branch in a safe way.
@@ -169,7 +169,7 @@ In the case of problems after the commit on the master branch, reverting this co
 6. Perform clean full build of the artifacts.
 7. Stage the artifacts for releasing.
 8. If release is approved, commit the version: `git commit -m "Release version "`*a.b.c*
-9. Make the release tag: `git tag -s "Release version "`*a.b.c*
+9. Make the release tag: `git tag -sm "Release version "`*a.b.c*
 10. Publish the code (i.e., push the changes) and the artifacts.
 
 
