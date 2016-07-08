@@ -2,7 +2,7 @@
 # Creates a bundle for releasing
 
 if [ -z "$1" ]; then
-    echo "Syntax: $0 BASENAME"
+    echo "Syntax: $0 BASENAME [DIR]"
     exit 1
 fi
 
