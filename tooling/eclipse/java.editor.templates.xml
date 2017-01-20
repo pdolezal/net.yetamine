@@ -64,6 +64,10 @@ public ${enclosing_type}(String message, Throwable cause) {&#13;
 	${cursor}
 } else {
 	
+}</template><template autoinsert="false" context="java-statements" deleted="false" description="if statement checking for not null" enabled="true" id="org.eclipse.jdt.ui.templates.ifnotnull" name="ifNotNull">if (${name:var} != null) {
+	${cursor}
+}</template><template autoinsert="false" context="java-statements" deleted="false" description="if statement checking for null" enabled="true" id="org.eclipse.jdt.ui.templates.ifnull" name="ifNull">if (${name:var} == null) {
+	${cursor}
 }</template><template autoinsert="true" context="javadoc" deleted="false" description="It must not be null." enabled="true" name="imnn">It must not be {@code null}.</template><template autoinsert="true" context="javadoc" deleted="false" description="Prepares a new instance." enabled="true" name="ini">Prepares a new instance.</template><template autoinsert="false" context="java-statements" deleted="false" description="dynamic type test and cast" enabled="true" id="org.eclipse.jdt.ui.templates.instanceof" name="instanceof">if (${name:var} instanceof ${type}) {
 	${type} ${new_name} = (${type})${name};
 	${cursor}
