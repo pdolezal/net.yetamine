@@ -98,7 +98,7 @@ There are some acceptable solutions (although not without pain):
 
 * Having a package master branch. The stable packages are maintained on the current branch and their changes are merged in the other branches. This choice is difficult to manage, but possibly still acceptable when there are few such packages and they are stable. Using tools for managing the changes and versions is recommended then, e.g., the slave branches might have restrictions on the package changes that force using the merges, instead of any development of the package on the slave branch.
 
-* Limiting existing branches on fork. Forking a new version limits strictly existing branches to prevent conflicts; existing branches still may continue in the maintenance mode, but can't advance beyond the limits. As a result, the version tree may become (almost) linear. To restore the parallelism, the incubation phase of the new version should be long enough to accumulate more changes and hopefully more packages switch their major version meanwhile too.
+* Limiting existing branches on fork. Forking a new version limits existing branches strictly to prevent conflicts; existing branches still may continue in the maintenance mode, but can't advance beyond the limits. As a result, the version tree may become (almost) linear. To restore the parallelism, the incubation phase of the new version should be long enough to accumulate more changes and hopefully more packages switch their major version meanwhile too.
 
 
 ## How to… ##
