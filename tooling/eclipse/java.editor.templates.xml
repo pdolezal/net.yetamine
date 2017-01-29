@@ -17,7 +17,7 @@ public ${enclosing_type}() {&#13;
 }&#13;
 &#13;
 /**&#13;
- * Create a new instance with the specified detail message.&#13;
+ * Creates a new instance with the specified detail message.&#13;
  *&#13;
  * @param message&#13;
  *            the detail message&#13;
@@ -27,7 +27,7 @@ public ${enclosing_type}(String message) {&#13;
 }&#13;
 &#13;
 /**&#13;
- * Create a new instance with the specified cause and a detail message&#13;
+ * Creates a new instance with the specified cause and a detail message&#13;
  * constructed from the cause (if not {@code null}).&#13;
  *&#13;
  * @param cause&#13;
@@ -38,7 +38,7 @@ public ${enclosing_type}(Throwable cause) {&#13;
 }&#13;
 &#13;
 /**&#13;
- * Create a new instance with the specified detail message and cause.&#13;
+ * Creates a new instance with the specified detail message and cause.&#13;
  *&#13;
  * @param message&#13;
  *            the detail message&#13;
@@ -73,7 +73,10 @@ public ${enclosing_type}(String message, Throwable cause) {&#13;
 	${cursor}
 }</template><template autoinsert="false" context="java-members" deleted="false" description="main method" enabled="true" id="org.eclipse.jdt.ui.templates.main" name="main">public static void main(String... args) {
 	${cursor}
-}</template><template autoinsert="false" context="java" deleted="false" description="create new object" enabled="true" id="org.eclipse.jdt.ui.templates.new" name="new">${type} ${name} = new ${type}(${arguments});</template><template autoinsert="false" context="java" deleted="false" description="non-externalized string marker" enabled="true" id="org.eclipse.jdt.ui.templates.non-nls" name="nls">//$$NON-NLS-${N}$$</template><template autoinsert="true" context="javadoc" deleted="false" description="Never null." enabled="true" name="nn">Never {@code null}.</template><template autoinsert="true" context="java-members" deleted="false" description="private disabled constructor" enabled="true" name="noctr">private ${enclosing_type}() {&#13;
+}</template><template autoinsert="false" context="java" deleted="false" description="create new object" enabled="true" id="org.eclipse.jdt.ui.templates.new" name="new">${type} ${name} = new ${type}(${arguments});</template><template autoinsert="false" context="java" deleted="false" description="non-externalized string marker" enabled="true" id="org.eclipse.jdt.ui.templates.non-nls" name="nls">//$$NON-NLS-${N}$$</template><template autoinsert="true" context="javadoc" deleted="false" description="Never null." enabled="true" name="nn">Never {@code null}.</template><template autoinsert="true" context="java-members" deleted="false" description="private disabled constructor" enabled="true" name="noctr">/**&#13;
+ * Prevents creating instances of this class.&#13;
+ */&#13;
+private ${enclosing_type}() {&#13;
 	throw new AssertionError();&#13;
 }</template><template autoinsert="true" context="javadoc" deleted="false" description="{@code null}" enabled="true" id="org.eclipse.jdt.ui.templates.code_tag_null" name="null">{@code null}</template><template autoinsert="true" context="java" deleted="false" description="private final" enabled="true" name="pf">private final ${type:link(String,int)} ${NAME};</template><template autoinsert="true" context="java" deleted="false" description="require non-null" enabled="true" name="rnn">Objects.requireNonNull(${expression})</template><template autoinsert="true" context="java" deleted="false" description="static final" enabled="true" name="sf">${visibility:link('public ','protected ','','private ')}static final ${type:link(String,int)} ${NAME} = ${expr:link('""',0)};</template><template autoinsert="true" context="java" deleted="false" description="singleton part" enabled="true" name="singleton">/** Sole instance of this class. */&#13;
 private static final ${enclosing_type} INSTANCE = new ${enclosing_type}();&#13;
