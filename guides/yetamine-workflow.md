@@ -1,18 +1,18 @@
-# Yetamine flow #
+# Yetamine workflow #
 
-This guide explains the work flow used for Yetamine projects and the structure of the project repositories.
+This guide explains the workflow used for Yetamine projects and the structure of the project repositories.
 
 
 ## Background ##
 
-The goal of the flow is supporting semantic versioning which is great for ensuring version compatibility and stability. On the other hand, keeping stability intrinsically limits changes and this might become a problem, e.g., during incubation phases of new projects and version, when compatibility requirements are suspended and significant changes may occur. This flow tries to merge both ways.
+The goal of the flow is supporting semantic versioning which is great for ensuring version compatibility and stability. On the other hand, keeping stability intrinsically limits changes and this might become a problem, e.g., during incubation phases of new projects and version, when all compatibility requirements are suspended and significant changes may occur. This flow tries to merge both ways.
 
 
 ## Repository structure ##
 
-Some work flows use a single master branch as the development mainline; the master branch serves as an integration branch, which gathers all the changes, and as the source for releases, which are often managed as separate release branches or as tags on a common release branch that merges changes from the master branch. While such work flows have a few advantages (like simplicity), they can't cope well with non-linear development, e.g., when multiple versions are being developed in parallel.
+Some workflows use a single master branch as the development mainline; the master branch serves as an integration branch, which gathers all the changes, and as the source for releases, which are often managed as separate release branches or as tags on a common release branch that merges changes from the master branch. While such workflows have a few advantages (like simplicity), they can't cope well with non-linear development, e.g., when multiple versions are being developed in parallel.
 
-The described structure and work flow elaborates the idea of a master branch as the central line of development, but uses multiple such branches in order to both enable and separate parallel development of multiple versions. Therefore every major version development happens on separate master branch with its own releases (by the way, this separation enables starting a new version from scratch). This freedom is possible at the cost of limiting the master branch to the particular major version; if a change on a branch requires the major version number increment, then a master branch for the new major version must be created.
+The described structure and workflow elaborates the idea of a master branch as the central line of development, but uses multiple such branches in order to both enable and separate parallel development of multiple versions. Therefore every major version development happens on separate master branch with its own releases (by the way, this separation enables starting a new version from scratch). This freedom is possible at the cost of limiting the master branch to the particular major version; if a change on a branch requires the major version number increment, then a master branch for the new major version must be created.
 
 To support the incubation phase of a new version (including the initial version), a master branch consists logically of two parts: the beginning of the branch runs in the incubation mode until the first official release on that branch when the incubation mode switches to the regular mode in order to keep compatibility and stability of the future releases on the branch.
 
